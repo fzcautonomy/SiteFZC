@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="FZC Autonomy cria automações digitais, sites personalizados e sistemas sob medida para empresas que querem crescer com tecnologia de ponta." />
+    <meta name="robots" content="index, follow" />
+    <title>FZC Autonomy | Automações e Sites Personalizados</title>
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="FZC Autonomy | Automações e Sites Personalizados" />
+    <meta property="og:description" content="Criamos automações, sites e sistemas personalizados para empresas que querem vender melhor, economizar tempo e operar com tecnologia de ponta." />
+    <meta property="og:image" content="assets/hero-fzc-autonomy.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="FZC Autonomy | Automações e Sites Personalizados" />
+    <meta name="twitter:description" content="Criamos automações, sites e sistemas personalizados para empresas que querem crescer com tecnologia." />
+    <meta name="twitter:image" content="assets/hero-fzc-autonomy.png" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <!-- Preload hero image (LCP) -->
+    <link rel="preload" as="image" href="assets/hero-fzc-autonomy.png" />
+
+    <link rel="icon" type="image/png" href="assets/logo.png" />
+    <link rel="apple-touch-icon" href="assets/logo.png" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "FZC Autonomy",
+      "description": "Criamos automações digitais, sites personalizados e sistemas sob medida para empresas que querem crescer com tecnologia.",
+      "email": "matheus.fazzane.fzc@gmail.com",
+      "telephone": "+5511986075848",
+      "areaServed": "BR",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Serviços FZC Autonomy",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Automações de processos" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Sites personalizados" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Integrações digitais" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Sistemas sob medida" } }
+        ]
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <!-- Skip link (acessibilidade) -->
+    <a class="skip-link" href="#main-content">Pular para o conteúdo principal</a>
+
+    <!-- Scroll progress -->
+    <div class="scroll-progress" aria-hidden="true"></div>
+
+    <div class="cursor-light" aria-hidden="true"></div>
+    <canvas id="networkCanvas" aria-hidden="true"></canvas>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#inicio" aria-label="FZC Autonomy — Início">
+        <img class="brand-logo" src="assets/logo.png" alt="FZC Autonomy" />
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" data-nav-toggle>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" data-nav aria-label="Navegação principal">
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">Sobre nós</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#processo">Processo</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="inicio">
+        <div class="hero-media" aria-hidden="true">
+          <img src="assets/hero-fzc-autonomy.png" alt="Ambiente tecnológico futurista representando automação e inovação digital" loading="eager" />
+        </div>
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content reveal">
+          <h1>Transformamos ideias em <span class="gradient-text">soluções tecnológicas.</span></h1>
+          <p class="hero-copy">
+            Criamos automações, sites e sistemas personalizados para empresas que querem vender melhor,
+            economizar tempo e operar com tecnologia de ponta.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary magnetic" href="https://wa.me/5511986075848?text=Ol%C3%A1%2C%20quero%20criar%20um%20projeto%20com%20a%20FZC%20Autonomy." target="_blank" rel="noreferrer noopener">Fale com um especialista</a>
+            <a class="button ghost magnetic" href="#servicos">Ver soluções</a>
+          </div>
+          <div class="hero-metrics" aria-label="Destaques da FZC Autonomy">
+            <div>
+              <strong>100%</strong>
+              <span>Personalizado</span>
+            </div>
+            <div>
+              <strong>Online</strong>
+              <span>Presença digital ativa</span>
+            </div>
+            <div>
+              <strong>ROI</strong>
+              <span>Foco em resultado</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="tech-stage reveal" aria-label="Painel futurista FZC Autonomy">
+          <div class="laptop">
+            <div class="laptop-screen">
+              <div class="screen-toolbar">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="screen-grid">
+                <div class="code-feed">
+                  <span>automation.run()</span>
+                  <span>lead.status = qualificado</span>
+                  <span>site.deploy()</span>
+                  <span>crm.sync()</span>
+                  <span>report.ready()</span>
+                </div>
+                <div class="dashboard-feed">
+                  <div>
+                    <small>Projetos</small>
+                    <strong data-counter="32">0</strong>
+                  </div>
+                  <div>
+                    <small>Automações</small>
+                    <strong data-counter="128">0</strong>
+                  </div>
+                  <div>
+                    <small>Uptime</small>
+                    <strong>99.9%</strong>
+                  </div>
+                  <svg viewBox="0 0 220 92" role="img" aria-labelledby="chart-title">
+                    <title id="chart-title">Gráfico de crescimento de projetos</title>
+                    <polyline points="4,72 34,56 58,63 82,35 106,50 132,30 154,40 178,18 202,28 216,12" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="laptop-base"></div>
+          </div>
+          <div class="scan-pill">Sistema digital em operação</div>
+        </aside>
+      </section>
+
+      <section class="section intro reveal" id="sobre">
+        <p>
+          A FZC Autonomy combina estratégia, design, automação e desenvolvimento para criar ferramentas
+          digitais que parecem feitas exatamente para o jeito que sua empresa trabalha.
+        </p>
+      </section>
+
+      <section class="section portfolio" id="portfolio">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Portfólio inteligente</p>
+          <h2>Ideias que podem virar projetos reais para sua empresa.</h2>
+        </div>
+
+        <div class="portfolio-grid">
+          <article class="portfolio-card reveal">
+            <span>Landing page premium</span>
+            <h3>Página de venda com rastreamento, WhatsApp e captação de leads.</h3>
+          </article>
+          <article class="portfolio-card reveal">
+            <span>Atendimento automático</span>
+            <h3>Fluxo para responder, qualificar e organizar contatos com mais agilidade.</h3>
+          </article>
+          <article class="portfolio-card reveal">
+            <span>Painel de controle</span>
+            <h3>Dashboard para acompanhar vendas, tarefas, equipe e resultados.</h3>
+          </article>
+        </div>
+      </section>
+
+      <section class="section services" id="servicos">
+        <div class="section-heading reveal">
+          <p class="eyebrow">O que fazemos</p>
+          <h2>Soluções diretas para empresas que querem sair do manual.</h2>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card reveal">
+            <span class="card-index">01</span>
+            <h3>Automações de processos</h3>
+            <p>
+              Fluxos que conectam planilhas, CRMs, WhatsApp, e-mail, relatórios e tarefas repetitivas
+              para sua equipe focar no que realmente move o negócio.
+            </p>
+          </article>
+
+          <article class="service-card reveal">
+            <span class="card-index">02</span>
+            <h3>Sites personalizados</h3>
+            <p>
+              Sites institucionais, landing pages e páginas de venda com identidade forte, responsividade
+              e estrutura pensada para conversão.
+            </p>
+          </article>
+
+          <article class="service-card reveal">
+            <span class="card-index">03</span>
+            <h3>Integrações digitais</h3>
+            <p>
+              Chatbots, triagem de leads, respostas automáticas, assistentes internos e conexões entre
+              ferramentas para acelerar seu atendimento.
+            </p>
+          </article>
+
+          <article class="service-card reveal">
+            <span class="card-index">04</span>
+            <h3>Sistemas sob medida</h3>
+            <p>
+              Painéis, portais, áreas administrativas, cadastros e ferramentas internas criadas para a
+              rotina real da sua operação.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section process" id="processo">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Como trabalhamos</p>
+          <h2>Clareza no início, velocidade na entrega e evolução constante.</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <span>01</span>
+            <h3>Diagnóstico</h3>
+            <p>Entendemos o objetivo, os gargalos, a rotina e onde a tecnologia pode gerar retorno rápido.</p>
+          </div>
+          <div class="timeline-item reveal">
+            <span>02</span>
+            <h3>Protótipo</h3>
+            <p>Desenhamos a experiência, o fluxo da automação e a arquitetura mais enxuta para o projeto.</p>
+          </div>
+          <div class="timeline-item reveal">
+            <span>03</span>
+            <h3>Construção</h3>
+            <p>Desenvolvemos o site, sistema ou automação com testes, responsividade e acabamento profissional.</p>
+          </div>
+          <div class="timeline-item reveal">
+            <span>04</span>
+            <h3>Evolução</h3>
+            <p>Medimos resultados, ajustamos pontos de melhoria e deixamos a base pronta para crescer.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section impact" id="impacto">
+        <div class="impact-copy reveal">
+          <p class="eyebrow">Tecnologia que vende e opera</p>
+          <h2>Seu negócio com mais presença, mais controle e menos repetição.</h2>
+          <p>
+            A tendência é clara: empresas que usam automação, dados e experiências digitais melhores ganham
+            velocidade. A FZC Autonomy transforma essa evolução em ferramentas práticas para o seu dia a dia.
+          </p>
+        </div>
+
+        <div class="impact-console reveal" role="log" aria-live="polite" aria-label="Console de automação em tempo real">
+          <div class="console-top" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="console-line active" data-console-line>
+            <span>lead.recebido</span>
+            <strong>resposta automática enviada</strong>
+          </div>
+          <div class="console-line" data-console-line>
+            <span>site.visita</span>
+            <strong>evento de conversão rastreado</strong>
+          </div>
+          <div class="console-line" data-console-line>
+            <span>crm.update</span>
+            <strong>oportunidade priorizada no CRM</strong>
+          </div>
+          <div class="console-line" data-console-line>
+            <span>dashboard</span>
+            <strong>relatório pronto para decisão</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contato">
+        <div class="contact-card reveal">
+          <p class="eyebrow">Vamos construir</p>
+          <h2>Conte para a FZC Autonomy o que você quer automatizar ou criar.</h2>
+          <p>
+            Site, automação, sistema interno ou uma ideia que ainda está tomando forma. A proposta nasce do
+            seu objetivo e vira um projeto claro.
+          </p>
+          <div class="contact-info">
+            <a href="mailto:matheus.fazzane.fzc@gmail.com">matheus.fazzane.fzc@gmail.com</a>
+            <a href="tel:+5511986075848">(11) 98607-5848</a>
+          </div>
+          <div class="contact-actions">
+            <a class="button primary magnetic" href="mailto:matheus.fazzane.fzc@gmail.com?subject=Quero%20criar%20um%20projeto%20com%20a%20FZC%20Autonomy">
+              Enviar e-mail
+            </a>
+            <a class="button ghost magnetic" href="https://wa.me/5511986075848?text=Ol%C3%A1%2C%20quero%20criar%20um%20projeto%20com%20a%20FZC%20Autonomy." target="_blank" rel="noreferrer noopener">
+              Chamar no WhatsApp
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>FZC Autonomy</span>
+      <span>Automações, sites e sistemas personalizados.</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
